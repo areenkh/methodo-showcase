@@ -11046,6 +11046,11 @@ html {
 }
 
 .fixed-image-size {
-  width: 351px; /* Adjust the width as needed */
-  height: 251px; /* Adjust the height as needed */
+  width: 351px; 
+  height: 251px;
+}
+
+.conclusion {
+  width: 351px; 
+  height: 351px;
 }
