@@ -11,6 +11,7 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="node_modules/lightbox2/src/css/lightbox.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
 </head>
@@ -69,10 +70,12 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <p class="lead">The first challenge was figuring out what to make. As I browsed through online resources, my love for stationery and cats pointed me in the right direction. I stumbled upon three intriguing 3D designs on Thingiverse: a small basket, a tiny cat figurine, and a pencil holder. The idea formed in my mind like pieces of a puzzle waiting to be connected.</p>
+                
                 <div class="row justify-content-between">
                     <div class="col-md-4 mb-4">
                         <div class=" mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <img class="img-fluid fixed-image-size" src="assets/img/Screenshot 2023-09-24 at 4.23.29 PM.png" alt="Image 1" />
+                            <a href="assets/img/Screenshot 2023-09-24 at 4.23.29 PM.png" data-lightbox="image-1" data-title="My caption"><img class="img-fluid fixed-image-size" src="assets/img/Screenshot 2023-09-24 at 4.23.29 PM.png" alt="Image 1" />
+                            </a>
                         </div>
                     </div>
                     <div class="col-md-4 mb-4">
@@ -283,6 +286,7 @@
                 </div>
             </div>
     </section>
+    <script src="node_modules/lightbox2/src/js/lightbox.js"></script>
 </body>
 </html>
 

@@ -52,3 +52,17 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+function showImagePopup() {
+    var overlay = document.getElementById('imageOverlay');
+    var popupImage = document.getElementById('popupImage');
+    var clickedImage = document.getElementById('myImage');
+
+    popupImage.src = clickedImage.src;
+    overlay.style.display = 'block';
+}
+
+function closeImagePopup() {
+    var overlay = document.getElementById('imageOverlay');
+    overlay.style.display = 'none';
+}
